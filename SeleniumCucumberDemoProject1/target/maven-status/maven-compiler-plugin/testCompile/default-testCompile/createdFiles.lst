@@ -1,0 +1,4 @@
+steps\Registration.class
+runners\TestRunner.class
+steps\MailComp.class
+steps\seleniumElearning.class

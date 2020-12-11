@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="37.488603">
+<testcase classname="To register in E-learning portal" name="Successful Registration by providing mandatory fields like firstname, lastname, e-mail," time="37.488603">
+<system-out><![CDATA[Given User navigate to "http://elearningm1.upskills.in/"....................passed
+When User click on SignUp...................................................passed
+Then User entered "Ritabrata" firstname.....................................passed
+And User entered "Ghosh" lastname...........................................passed
+And User entered "BrunoFernand2930" username................................passed
+And User entered "bf19@manutd.com" email....................................passed
+And User entered "Marcus@9678" password.....................................passed
+And User confirms "Marcus@9678" Conf password...............................passed
+And User clicks on Register button..........................................passed
+Then User validates the name................................................passed
+Then User clicks on HomePage................................................passed
+And Verify "bf19@manutd.com" email from profile section.....................passed
+And Compose email and send to "naveen"......................................passed
+And Verify the message "The message has been sent to naveen naveen (naveen)".passed
+]]></system-out>
+</testcase>
+</testsuite>
